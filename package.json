@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@theme-ui/presets": "^0.12.0",
+    "@types/react": "^17.0.33",
     "next": "12.0.1",
+    "next-connect": "^0.11.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "theme-ui": "^0.12.0",
+    "typescript": "^4.4.4"
   },
   "devDependencies": {
+    "dotenv-load": "^2.0.0",
     "eslint": "7",
-    "eslint-config-next": "12.0.1"
+    "eslint-config-next": "12.0.1",
+    "next-env": "^1.1.1"
   }
 }
